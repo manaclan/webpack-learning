@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/manaclan/webpack-learning#readme",
   "devDependencies": {
     "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
     "wepack-cli": "^0.0.1-security"
   }
 }

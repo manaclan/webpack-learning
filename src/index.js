@@ -1,3 +1,3 @@
-import getState from "./moudule.js";
+import getState from "./module.js";
 
 console.log(getState());
