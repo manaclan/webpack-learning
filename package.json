@@ -1,0 +1,24 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manaclan/webpack-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manaclan/webpack-learning/issues"
+  },
+  "homepage": "https://github.com/manaclan/webpack-learning#readme",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "wepack-cli": "^0.0.1-security"
+  }
+}

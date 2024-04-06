@@ -1,3 +1,3 @@
-export default getAnimals = () => {
+export default getState = () => {
   return "";
 };
