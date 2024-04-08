@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/manaclan/webpack-learning#readme",
   "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "babel-loader": "^9.1.3",
     "css-loader": "^7.0.0",
     "html-webpack-plugin": "^5.6.0",
     "sass": "^1.74.1",
@@ -25,6 +29,7 @@
     "style-loader": "^3.3.4",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
     "wepack-cli": "^0.0.1-security"
   }
 }

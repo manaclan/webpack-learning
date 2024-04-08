@@ -6,8 +6,23 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <div class="image image--idle"></div>
-    <div class="image image--run"></div>
+    <div class="layout">
+      <div class="layout__frame">
+        <div class="layout__frame__player">
+          <img class="layout__frame__player__image" />
+        </div>
+      </div>
+      <select
+        name="choose-animation"
+        id="choose-animation"
+        class="layout__choose-animation"
+      >
+        <option value="run">Run</option>
+        <option value="walk">Walk</option>
+        <option value="idle">Idle</option>
+      </select>
+    </div>
+
     <script type="module" src="./bundle.js"></script>
   </body>
 </html>

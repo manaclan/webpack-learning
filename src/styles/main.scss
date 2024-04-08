@@ -1,0 +1,36 @@
+.layout {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.layout__frame {
+  width: 700px;
+  height: 700px;
+
+  border-radius: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #dededef0;
+  transform: scale(80%);
+}
+
+.layout__frame__player {
+  width: 510px;
+  height: 552px;
+  overflow: hidden;
+}
+.layout__frame__player__image {
+  width: 8032px;
+  height: 552px;
+  animation: animate 1s infinite steps(16);
+}
+
+@keyframes animate {
+  100% {
+    -webkit-transform: translateX(-8032px);
+  }
+}
